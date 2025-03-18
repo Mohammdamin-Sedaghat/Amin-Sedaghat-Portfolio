@@ -40,3 +40,139 @@ a {
     color-scheme: dark;
   }
 }
+
+
+/* 
+  ====
+     Hero
+  ====
+*/
+
+header {
+  height: calc(100vh + 5rem);
+  position: relative;
+  overflow: hidden;
+}
+
+.bgImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(360deg, rgba(18, 18, 18, 0) 0%, rgba(18, 18, 18, 0.4) 28.28%, #121212 100%),
+              linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2));
+}
+
+.trees {
+  position: absolute;
+  bottom: -6rem;
+  left: 0;
+  object-fit: cover;
+}
+
+header > .text {
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 4.1rem;
+}
+
+header > .text > h1 {
+  font-weight: 300;
+  font-size: 3.5rem;
+  margin-left: -0.197rem;
+}
+
+header h2 {
+  font-weight: 300;
+}
+
+.text span {
+  background: linear-gradient(90deg, #FF008D 0%, #8900FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+  font-weight: 200;
+  width: max-content;
+  margin-top: 2rem;
+}
+
+.btns a {
+  border: 1px solid white;
+    padding-block: 0.6rem;
+    text-align: center;
+    width: 9.6rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.btns a:hover {
+  background-color: #1d1d1dcf;
+}
+
+.socials {
+  position: absolute;
+  right: 4rem;
+  top: 0;
+  height: 100%;
+  width: auto;
+}
+
+.socials > svg {
+    width: 1.2rem;
+    fill: white;
+}
+
+/* 
+  ====
+     Hero - Responsive
+  ====
+*/
+
+@media only screen and (max-width:500px) {
+  header > .text {
+    left: 1.1rem;
+  }
+
+  header > .text > h1 {
+    font-size: 2rem;
+    margin-left: -0.05rem;
+  }
+
+  .text h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width:375px) {
+  .btns > a {
+    width: 41vw;
+  }
+}
+
+@media only screen and (max-width:300px) {
+  .btns {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .btns > a {
+    width: 70vw;
+  }
+}
