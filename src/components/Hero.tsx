@@ -1,17 +1,44 @@
 import Image from "next/image"
-import style from "./Hero.module.css"
+import Link from "next/link"
+import Linkedin from "./Linkedin"
+import Github from "./Github"
+import Resume from "./Resume"
+import Instagram from "./Instagram"
 
 export default function Hero() {
     return (
-        <header className={style.header}>
+        <header>
             <Image 
                 src="/MountainBackground.jpg"
                 alt="Black and White Moutain with Serrounding Fog"
                 width={5472}
                 height={3648}
-                className={style.bgImg}
+                className="bgImg"
             />
-            <div className={style.overlay}></div>
+            <div className="overlay"></div>
+            <Image 
+                src="/tree.png"
+                alt="Black and White Moutain with Serrounding Fog"
+                width={1620}
+                height={620}
+                className="trees"
+            />
+
+            <div className="text">
+                <h1>Hello, I’m Amin Sedaghat!</h1>
+                <h2>I'm a <span>Software Engineer</span></h2>
+                <div className="btns">
+                    <Link href="#projects">Projects</Link>
+                    <Link href="#experiences">Experience</Link>
+                </div>
+            </div>
+
+            <div className="socials">
+                <Linkedin />
+                <Github />
+                <Resume />
+                <Instagram />
+            </div>
         </header>
     )
 } 

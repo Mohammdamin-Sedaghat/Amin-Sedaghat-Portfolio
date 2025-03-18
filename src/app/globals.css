@@ -128,13 +128,22 @@ header h2 {
 .socials {
   position: absolute;
   right: 4rem;
-  top: 0;
-  height: 100%;
+  top: 24%;
+
+  height: auto;
   width: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
 }
 
 .socials > svg {
-    width: 1.2rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    object-fit: contain;
     fill: white;
 }
 
