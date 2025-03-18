@@ -1,9 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
-import Linkedin from "./Linkedin"
-import Github from "./Github"
-import Resume from "./Resume"
-import Instagram from "./Instagram"
+import Linkedin from "./icons/Linkedin"
+import Github from "./icons/Github"
+import Resume from "./icons/Resume"
+import Instagram from "./icons/Instagram"
 
 export default function Hero() {
     return (
@@ -34,10 +34,10 @@ export default function Hero() {
             </div>
 
             <div className="socials">
-                <Linkedin />
-                <Github />
-                <Resume />
-                <Instagram />
+                <Link href="/"><Linkedin /></Link>
+                <Link href="/"><Github /></Link>
+                <Link href="/"><Resume /></Link>
+                <Link href="/"><Instagram /></Link>
             </div>
         </header>
     )
