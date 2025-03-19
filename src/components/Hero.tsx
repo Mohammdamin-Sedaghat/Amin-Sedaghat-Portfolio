@@ -4,6 +4,7 @@ import Linkedin from "./icons/Linkedin"
 import Github from "./icons/Github"
 import Resume from "./icons/Resume"
 import Instagram from "./icons/Instagram"
+import RotatingText from "./RotatingText"
 
 export default function Hero() {
     return (
@@ -26,7 +27,7 @@ export default function Hero() {
 
             <div className="text">
                 <h1>Hello, I’m Amin Sedaghat!</h1>
-                <h2>I'm a <span>Software Engineer</span></h2>
+                <h2>I'm a <RotatingText /></h2>
                 <div className="btns">
                     <Link href="#projects">Projects</Link>
                     <Link href="#experiences">Experience</Link>
@@ -34,31 +35,23 @@ export default function Hero() {
             </div>
 
             <div className="socials">
-                <Link href="/"><Linkedin /></Link>
-                <Link href="/"><Github /></Link>
-                <Link href="/"><Resume /></Link>
-                <Link href="/"><Instagram /></Link>
+                <Link href="https://www.linkedin.com/in/mohammadamin-sedaghat/" target="blank">
+                    <span>Linkedin</span>
+                    <Linkedin />
+                </Link>
+                <Link href="https://github.com/Mohammdamin-Sedaghat" target="blank">
+                    <span>Github</span>
+                    <Github />
+                </Link>
+                <Link href="/">
+                    <span>Resume</span>
+                    <Resume />
+                </Link>
+                <Link href="https://www.instagram.com/amin_sed_/" target="blank">
+                    <span>Instagram</span>
+                    <Instagram />
+                </Link>
             </div>
         </header>
     )
-} 
-
-// mountain
-
-// amin
-
-// PROJECTS:
-// snake_futuristica
-// accentify
-// harvest-aid
-
-// work
-// 1... 
-// 2.
-// 3.
-
-// inteactive-cool buttons
-
-// crazy background
-// - selected intellectually/methodically/strategically
-
+}
