@@ -4,7 +4,7 @@ import Linkedin from "./icons/Linkedin"
 import Github from "./icons/Github"
 import Resume from "./icons/Resume"
 import Instagram from "./icons/Instagram"
-import RotatingText from "./RotatingText"
+import RotatingText from "./ui/RotatingText"
 
 export default function Hero() {
     return (

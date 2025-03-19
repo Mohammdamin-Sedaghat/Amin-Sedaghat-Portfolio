@@ -1,6 +1,6 @@
 :root {
-  --background: #EEEEEE;
-  --foreground: #121212;
+  --background: #121212;
+  --foreground: #EEEEEE;
 }
 
 @media (prefers-color-scheme: light) {
@@ -14,6 +14,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: var(--background);
 }
 
 body {
@@ -269,4 +270,30 @@ header h2 {
   .btns > a {
     width: 70vw;
   }
+}
+
+/* 
+  ====
+     About
+  ====
+*/
+
+.about {
+  width: 100vw;
+  padding-inline: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about h2 {
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.about p {
+  font-weight: 300;
+  line-height: 160%;
+  margin-top: 2rem;
 }
