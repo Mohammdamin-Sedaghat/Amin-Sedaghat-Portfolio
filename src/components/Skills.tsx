@@ -1,0 +1,72 @@
+"use client";
+
+import React, { JSX, useEffect, useState } from "react";
+import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+
+//importing the icons
+import {
+    FaPython, FaJava, FaNodeJs, FaReact, FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaJs, FaDatabase, FaFlask, FaLaptopCode
+} from "react-icons/fa";
+import {
+    SiC, SiCplusplus, SiTypescript, SiLatex, SiGnubash, SiRacket, SiNextdotjs, SiExpress, SiVite, SiPandas, SiNumpy, SiScikitlearn, SiScrapy, SiHaskell, SiMongodb, SiJupyter, SiVercel, SiFigma, SiPrismic
+} from "react-icons/si";
+
+const skills: {
+    icon: JSX.Element;
+    name: string;
+}[] = [
+        { icon: <FaPython style={{ height: "2.1rem", width: "auto" }} />, name: "Python" },
+        { icon: <SiC style={{ height: "2.1rem", width: "auto" }} />, name: "C" },
+        { icon: <SiCplusplus style={{ height: "2.1rem", width: "auto" }} />, name: "C++" },
+        { icon: <FaJava style={{ height: "2.1rem", width: "auto" }} />, name: "Java" },
+        { icon: <FaJs style={{ height: "2.1rem", width: "auto" }} />, name: "JavaScript" },
+        { icon: <SiTypescript style={{ height: "2.1rem", width: "auto" }} />, name: "TypeScript" },
+        { icon: <FaHtml5 style={{ height: "2.1rem", width: "auto" }} />, name: "HTML" },
+        { icon: <FaCss3Alt style={{ height: "2.1rem", width: "auto" }} />, name: "CSS" },
+        { icon: <SiGnubash style={{ height: "2.1rem", width: "auto" }} />, name: "Bash" },
+        { icon: <SiLatex style={{ height: "2.1rem", width: "auto" }} />, name: "LaTeX" },
+        { icon: <SiHaskell style={{ height: "2.1rem", width: "auto" }} />, name: "Haskell" },
+        { icon: <SiRacket style={{ height: "2.1rem", width: "auto" }} />, name: "Racket" },
+        { icon: <FaFlask style={{ height: "2.1rem", width: "auto" }} />, name: "Flask" },
+        { icon: <SiPandas style={{ height: "2.1rem", width: "auto" }} />, name: "Pandas" },
+        { icon: <FaReact style={{ height: "2.1rem", width: "auto" }} />, name: "React" },
+        { icon: <SiNextdotjs style={{ height: "2.1rem", width: "auto" }} />, name: "Next.js" },
+        { icon: <SiNumpy style={{ height: "2.1rem", width: "auto" }} />, name: "NumPy" },
+        { icon: <SiScikitlearn style={{ height: "2.1rem", width: "auto" }} />, name: "Scikit-Learn" },
+        { icon: <FaNodeJs style={{ height: "2.1rem", width: "auto" }} />, name: "Node.js" },
+        { icon: <SiExpress style={{ height: "2.1rem", width: "auto" }} />, name: "Express.js" },
+        { icon: <SiVite style={{ height: "2.1rem", width: "auto" }} />, name: "Vite" },
+        { icon: <SiScrapy style={{ height: "2.1rem", width: "auto" }} />, name: "Scrapy" },
+        { icon: <FaGitAlt style={{ height: "2.1rem", width: "auto" }} />, name: "Git" },
+        { icon: <FaGithub style={{ height: "2.1rem", width: "auto" }} />, name: "GitHub" },
+        { icon: <SiMongodb style={{ height: "2.1rem", width: "auto" }} />, name: "MongoDB" },
+        { icon: <SiPrismic style={{ height: "2.1rem", width: "auto" }} />, name: "Prismic.io" },
+        { icon: <SiFigma style={{ height: "2.1rem", width: "auto" }} />, name: "Figma" },
+        { icon: <SiJupyter style={{ height: "2.1rem", width: "auto" }} />, name: "Jupyter Notebook" },
+        { icon: <SiVercel style={{ height: "2.1rem", width: "auto" }} />, name: "Vercel" }
+    ];
+
+export function Skills() {
+    return (
+        <>
+            <div className="mt-40 md:mx-[12%] rounded-md flex flex-col antialiased bg-white dark:bg-[#121212] dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+                <InfiniteMovingCards
+                    items={skills}
+                    direction="right"
+                    speed="slow"
+                    pauseOnHover={false}
+                />
+            </div>
+            <div className="mt-8 md:mx-[12%] rounded-md flex flex-col antialiased bg-white dark:bg-[#121212] dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+                <InfiniteMovingCards
+                    items={skills}
+                    direction="left"
+                    speed="slow"
+                    pauseOnHover={false}
+                />
+            </div>
+        </>
+
+
+    );
+}
