@@ -74,6 +74,7 @@ header {
   bottom: -6rem;
   left: 0;
   object-fit: cover;
+  height: 32rem;
 }
 
 header > .text {
@@ -93,13 +94,6 @@ header > .text > h1 {
 header h2 {
   font-weight: 300;
 }
-
-/* .text .word {
-  background: linear-gradient(90deg, #FF008D 0%, #8900FF 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
 
 .rotating-text {
   display: inline-flex;
@@ -281,7 +275,7 @@ header h2 {
   margin-top: 2rem;
 }
 
-.about h2 {
+h2 {
   font-weight: 300;
   font-size: 28px;
 }
@@ -290,6 +284,12 @@ header h2 {
   font-weight: 300;
   line-height: 160%;
   margin-top: 2rem;
+}
+
+@media only screen and (max-width:500px) {
+  .about {
+    margin-top: 4rem;
+  }
 }
 
 /* 

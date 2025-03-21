@@ -48,8 +48,9 @@ const skills: {
 
 export function Skills() {
     return (
-        <>
-            <div className="mt-40 md:mx-[12%] rounded-md flex flex-col antialiased bg-white dark:bg-[#121212] dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+        <section className="flex flex-col items-center text-center mt-40 gap-8 justify-center">
+            <h2>Skills</h2>
+            <div className="md:mx-[12%] rounded-md flex flex-col antialiased bg-white dark:bg-[#121212] dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
                 <InfiniteMovingCards
                     items={skills}
                     direction="right"
@@ -57,7 +58,7 @@ export function Skills() {
                     pauseOnHover={false}
                 />
             </div>
-            <div className="mt-8 md:mx-[12%] rounded-md flex flex-col antialiased bg-white dark:bg-[#121212] dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+            <div className="md:mx-[12%] rounded-md flex flex-col antialiased bg-white dark:bg-[#121212] dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
                 <InfiniteMovingCards
                     items={skills}
                     direction="left"
@@ -65,7 +66,7 @@ export function Skills() {
                     pauseOnHover={false}
                 />
             </div>
-        </>
+        </section>
 
 
     );
