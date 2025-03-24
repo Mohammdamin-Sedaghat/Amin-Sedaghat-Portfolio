@@ -520,7 +520,7 @@ h2 {
 }
 
 #contact-form {
-  width: 100%;
+  width: 98%;
   max-width: 600px;
   margin-top: 2rem;
 }
@@ -543,6 +543,11 @@ h2 {
   gap: 8px;
   align-items: center;
 }
+
+.rff > h2 {
+  text-align: center;
+}
+
 .facts-cont {
   width: 90%;
   max-width: 600px;
