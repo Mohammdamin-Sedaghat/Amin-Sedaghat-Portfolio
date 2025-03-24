@@ -3,6 +3,7 @@ import ContactMe from "@/components/ContactMe";
 import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
+import RandomFunFacts from "@/components/RandomFunFacts";
 import { Skills } from "@/components/Skills";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     <>
       <Hero />
       <About />
+      <RandomFunFacts />
       <Skills />
       <Projects />
       <Experience />

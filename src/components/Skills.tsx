@@ -48,7 +48,7 @@ const skills: {
 
 export function Skills() {
     return (
-        <section className="flex flex-col items-center text-center mt-40 gap-8 justify-center md:mx-[12vw]">
+        <section className="flex flex-col items-center text-center mt-20 gap-8 justify-center md:mx-[12vw]">
             <h2>Skills</h2>
             <div className="w-full rounded-md flex flex-col antialiased bg-white dark:bg-[#121212] dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
                 <InfiniteMovingCards

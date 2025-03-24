@@ -529,3 +529,29 @@ h2 {
   height: 8rem;
   text-align: left;
 }
+
+/* 
+  ====
+     Random Fun Facts
+  ====
+*/
+
+.rff {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.facts-cont {
+  width: 90%;
+  max-width: 600px;
+  padding: 1.5rem 3rem;
+  line-height: 2.3rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.facts-cont > li > svg {
+  display: inline;
+}
