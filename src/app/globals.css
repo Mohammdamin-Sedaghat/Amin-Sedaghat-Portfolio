@@ -15,7 +15,7 @@
 html,
 body {
   max-width: 100vw;
-  margin-bottom: 15rem;
+  margin-bottom: 3rem;
   overflow-x: hidden;
   background-color: var(--background);
 }
@@ -500,12 +500,19 @@ h2 {
      Contact Me
   ====
 */
+@theme inline {
+  --shadow-input:
+    0px 2px 3px -1px rgba(0, 0, 0, 0.1),
+    0px 1px 0px 0px rgba(25, 28, 33, 0.02),
+    0px 0px 0px 1px rgba(25, 28, 33, 0.08);
+}
 
 .contact {
   margin-top: 5rem;
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 12px;
 }
 
 .contact h2 {
@@ -513,8 +520,12 @@ h2 {
 }
 
 #contact-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-  background-color: yellow;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2rem;
+}
+
+#contact-form > div > textarea[name="message"] {
+  height: 8rem;
+  text-align: left;
 }
