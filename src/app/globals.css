@@ -536,15 +536,7 @@ h2 {
   ====
 */
 
-.rff {
-  margin-top: 5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  align-items: center;
-}
-
-.rff > h2 {
+.rff h2 {
   text-align: center;
 }
 
