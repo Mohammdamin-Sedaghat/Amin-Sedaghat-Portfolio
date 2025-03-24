@@ -494,3 +494,27 @@ h2 {
     padding-inline: 8%;
   }
 }
+
+/* 
+  ====
+     Contact Me
+  ====
+*/
+
+.contact {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  background-color: yellow;
+}
