@@ -443,3 +443,54 @@ h2 {
     grid-template-columns: repeat(6, 1fr);
   }
 }
+
+/* 
+  ====
+     Experiences
+  ====
+*/
+
+.experiences  h2 {
+  margin-inline: auto;
+  width: fit-content;
+  margin-bottom: 4rem;
+}
+
+.experience-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-inline: 5rem;
+  width: 100%;
+  font-weight: 300;
+  max-width: 900px;
+}
+
+.top h6 {
+  font-size: 1.4rem;
+}
+
+.midsection {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #dedddd;
+  font-style: italic;
+}
+
+.description {
+  padding-left: 14px;
+}
+
+@media only screen and (max-width:600px) {
+  .experience {
+    padding-inline: 8%;
+  }
+}
