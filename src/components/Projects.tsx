@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaPython, FaGithub } from "react-icons/fa";
 import { IoMdOpen } from "react-icons/io";
 
@@ -13,7 +14,7 @@ export default function Projects() {
                         <a href="https://uwdbc.com/" target="blank"><IoMdOpen style={{ height: "1.3rem", width: "auto" }} /></a>
                     </div>
                     <Image src="/projects/uwdbc.png" alt="UWDBC website Photo" width={398} height={289} />
-                    <div className="project-details">
+                    <Link className="project-details" href="https://uwdbc.com">
                         <h6>UWDBC</h6>
                         <p>UWDBC is the perfect website for you family to plan happy vaction to your mom</p>
                         <div className="tech-stack">
@@ -21,7 +22,7 @@ export default function Projects() {
                             <FaPython style={{ height: "2rem", width: "auto" }}/>
                             <FaPython style={{ height: "2rem", width: "auto" }}/>
                         </div>
-                    </div>
+                    </Link>
                 </div>
 
                 <div className="card ring ring-gray-600">
