@@ -1,11 +1,9 @@
-"use client";
-
-import React, { JSX, useEffect, useState } from "react";
+import React, { JSX } from "react";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 //importing the icons
 import {
-    FaPython, FaJava, FaNodeJs, FaReact, FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaJs, FaDatabase, FaFlask, FaLaptopCode
+    FaPython, FaJava, FaNodeJs, FaReact, FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaJs, FaFlask
 } from "react-icons/fa";
 import {
     SiC, SiCplusplus, SiTypescript, SiLatex, SiGnubash, SiRacket, SiNextdotjs, SiExpress, SiVite, SiPandas, SiNumpy, SiScikitlearn, SiScrapy, SiHaskell, SiMongodb, SiJupyter, SiVercel, SiFigma, SiPrismic

@@ -4,12 +4,12 @@ import data from "../../../public/data.json"
 
 export default function RotatingText() {
     useEffect(()=>{
-        let words = document.querySelectorAll(".word");
+        const words = document.querySelectorAll(".word");
         words.forEach(word => {
-            let letters = word.textContent ? word.textContent.split(""): [];
+            const letters = word.textContent ? word.textContent.split(""): [];
             word.textContent = "";
             letters.forEach(letter => {
-                let span = document.createElement("span");
+                const span = document.createElement("span");
                 span.textContent = letter === " " ? "\u00A0" : letter;
                 span.className = "letter";
                 word.append(span);
@@ -17,12 +17,12 @@ export default function RotatingText() {
         });
 
         let currentWordIndex = 0;
-        let maxWordIndex = words.length - 1;
+        const maxWordIndex = words.length - 1;
         (words[currentWordIndex] as HTMLElement).style.opacity = "1";
 
-        let rotateText = () => {
-        let currentWord = words[currentWordIndex];
-        let nextWord =
+        const rotateText = () => {
+        const currentWord = words[currentWordIndex];
+        const nextWord =
             currentWordIndex === maxWordIndex ? words[0] : words[currentWordIndex + 1];
         // rotate out letters of current word
         Array.from(currentWord.children).forEach((letter, i) => {
@@ -44,7 +44,7 @@ export default function RotatingText() {
 
         rotateText();
         setInterval(rotateText, 4000);
-    },[0])
+    },[])
 
     return (
         <div className="rotating-text">
