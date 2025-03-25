@@ -64,31 +64,31 @@
     "projects": {
         "data":[
             {
-                "image-path": "/projects/uwdbc.png",
-                "image-alt": "UWDBC website Photo",
-                "Header": "UWDBC",
-                "description": "UWDBC is the perfect website for you family to plan happy vaction to your mom",
-                "tech-stack": ["FaPython","FaPython","FaPython"],
-                "github-link": "https://github.com/uwdbc/uwdbc-prismic",
-                "project-link": "https://uwdbc.com/"
+                "image-path": "/projects/SnakeFuturista.png",
+                "image-alt": "Snake Futuristica Gameplay",
+                "Header": "Snake Futuristica",
+                "description": "Snake Futuristica is the futuristic take on the classic snake game! 🔮",
+                "tech-stack": ["FaCss3Alt","FaHtml5","IoLogoJavascript"],
+                "github-link": "https://github.com/Mohammdamin-Sedaghat/Snake-Futuristica",
+                "project-link": "https://github.com/Mohammdamin-Sedaghat/Snake-Futuristica"
             },
             {
-                "image-path": "/projects/uwdbc.png",
-                "image-alt": "UWDBC website Photo",
-                "Header": "UWDBC",
-                "description": "UWDBC is the perfect website for you family to plan happy vaction to your mom",
-                "tech-stack": ["FaPython","FaPython","FaPython"],
-                "github-link": "https://github.com/uwdbc/uwdbc-prismic",
-                "project-link": "https://uwdbc.com/"
+                "image-path": "/projects/Accentify.png",
+                "image-alt": "Accentify Logo",
+                "Header": "Accentify.Study",
+                "description": "Accentify is designed to help users achieve american accents easier",
+                "tech-stack": ["FaPython","FaHtml5","FaCss3Alt","IoLogoJavascript"],
+                "github-link": "https://github.com/Mohammdamin-Sedaghat/Accentify",
+                "project-link": "https://github.com/Mohammdamin-Sedaghat/Accentify"
             },
             {
-                "image-path": "/projects/uwdbc.png",
-                "image-alt": "UWDBC website Photo",
-                "Header": "UWDBC",
-                "description": "UWDBC is the perfect website for you family to plan happy vaction to your mom",
-                "tech-stack": ["FaPython","FaPython","FaPython"],
-                "github-link": "https://github.com/uwdbc/uwdbc-prismic",
-                "project-link": "https://uwdbc.com/"
+                "image-path": "/projects/HarvestAid.png",
+                "image-alt": "Harvest Aid Web",
+                "Header": "HarvestAid",
+                "description": "HarvestAid is developed at NewHacks 2024 to support farmers affected by natural disasters.",
+                "tech-stack": ["FaPython","SiTypescript","RiNextjsFill", "FaNodeJs"],
+                "github-link": "https://github.com/Mohammdamin-Sedaghat/harvestaid",
+                "project-link": "https://github.com/Mohammdamin-Sedaghat/harvestaid"
             }
         ]
     },

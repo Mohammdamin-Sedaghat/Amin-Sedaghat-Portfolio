@@ -46,7 +46,7 @@ const skills: {
         { icon: <SiVercel style={{ height: "2.1rem", width: "auto" }} />, name: "Vercel" }
     ];
 
-export function Skills() {
+export default function Skills() {
     return (
         <section className="flex flex-col items-center text-center mt-20 gap-8 justify-center md:mx-[12vw]">
             <h2>Skills</h2>
