@@ -22,7 +22,7 @@ export default function RandomFunFacts() {
                 <div className={cn(
                         "absolute inset-0",
                         "[background-size:40px_40px]",
-                        "dark:[background-image:linear-gradient(to_right,#3d3d3d_1px,transparent_1px),linear-gradient(to_bottom,#3d3d3d_1px,transparent_1px)]",
+                        "[background-image:linear-gradient(to_right,#3d3d3d_1px,transparent_1px),linear-gradient(to_bottom,#3d3d3d_1px,transparent_1px)]",
                     )}/>
                 <div className="pointer-events-none absolute inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] bg-[#121212]"></div>
                 <h2 className="z-20">Fun Facts About Me</h2>
