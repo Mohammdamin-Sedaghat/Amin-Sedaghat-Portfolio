@@ -1,14 +1,18 @@
 "use client"
-import { GiMountainClimbing } from "react-icons/gi";
-import { HiOutlineRocketLaunch } from "react-icons/hi2";
-import { IoMdCheckmark } from "react-icons/io";
+import { GiMountainClimbing, GiSpikedDragonHead } from "react-icons/gi";
+import { HiOutlineTrophy } from "react-icons/hi2";
+import { IoDiamond } from "react-icons/io5";
+
 import * as motion from "motion/react-client";
 import { cn } from "@/lib/utils";
 import data from "../../public/data.json"
 import { JSX } from "react";
 
 const icons:Record<string, JSX.Element> = {
-    "IoMdCheckmark": <IoMdCheckmark />
+    "GiMountainClimbing": <GiMountainClimbing />,
+    "HiOutlineTrophy": <HiOutlineTrophy />,
+    "GiSpikedDragonHead": <GiSpikedDragonHead />,
+    "IoDiamond": <IoDiamond />
 }
 
 export default function RandomFunFacts() {

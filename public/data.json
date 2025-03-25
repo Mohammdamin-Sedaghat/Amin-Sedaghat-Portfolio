@@ -11,11 +11,15 @@
             },
             {
                 "color": "#2ecc71",
-                "word": "AI Enthusiast"
+                "word": "AI Engineer"
             },
             {
                 "color": "#f1c40f",
                 "word": "Full Stack Developer"
+            },
+            {
+                "color": "#3498db",
+                "word": "Web Developer"
             }
         ],
         "socials": [
@@ -29,7 +33,7 @@
             }
             ,{
                 "name": "Resume",
-                "link": "/"
+                "link": "/Amin_Sedaghat_Resume.pdf"
             },
             {
                 "name": "Instagram",
@@ -39,26 +43,22 @@
     },
     "aboutMe": {
         "paragraphs": [
-            "I’m a Computer Science student at the University of Waterloo with a deep passion for machine learning and artificial intelligence. I thrive at the intersection of AI, software engineering, and data science, constantly exploring innovative ways to apply AI to real-world challenges. Beyond AI, I enjoy full-stack development, Game Development and Web Development.",
-            "When I’m not coding, you’ll probably find me snowboarding, reading science fiction, or climbing. I’m always open to new challenges, collaborations, and learning opportunities—let’s build something amazing! Shoot me an email if you want to work on a project together!"
+            "I’m a Computer Science student at the University of Waterloo with a deep passion for machine learning and artificial intelligence. My Areas of strength are AI, software engineering, and data science, constantly exploring innovative ways to apply AI to real-world challenges. Beyond AI, I enjoy full-stack development, Game Development and Web Development."
         ]
     },
     "RandomFunFacts": {
         "data": [{
-            "icon": "IoMdCheckmark",
-            "description": "Your Mom"
+            "icon": "GiMountainClimbing",
+            "description": "I Snowboard on Winters and Climb Rocks on the rest of the year"
         },{
-            "icon": "IoMdCheckmark",
-            "description": "Your Mom"
+            "icon": "HiOutlineTrophy",
+            "description": "I Was in the Olympiad Prepration team of my highschool"
         },{
-            "icon": "IoMdCheckmark",
-            "description": "Your Mom"
+            "icon": "GiSpikedDragonHead",
+            "description": "I'm part of the UW Dragon Boat Club"
         },{
-            "icon": "IoMdCheckmark",
-            "description": "Your Mom"
-        },{
-            "icon": "IoMdCheckmark",
-            "description": "Your Mom"
+            "icon": "IoDiamond",
+            "description": "I can make jewelry"
         }]
     },
     "projects": {
