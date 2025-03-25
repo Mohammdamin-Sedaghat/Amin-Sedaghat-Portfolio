@@ -41,13 +41,6 @@ export default function RandomFunFacts() {
                            {icons[item.icon]} {item.description}
                         </li>
                     ))}
-                    {/* <li><IoMdCheckmark /> Your Mom</li>
-                    <li><GiMountainClimbing /> Your Dad</li>
-                    <li><HiOutlineRocketLaunch /> Your Dad</li>
-                    <li><HiOutlineRocketLaunch /> Your Dad</li>
-                    <li><HiOutlineRocketLaunch /> Your are very sucky long</li>
-                    <li><HiOutlineRocketLaunch /> Hi I am not intrested</li>
-                    <li><HiOutlineRocketLaunch /> Your Mom</li> */}
                 </motion.ul>
             </div>
             
