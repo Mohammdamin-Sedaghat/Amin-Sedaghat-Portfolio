@@ -1,9 +1,12 @@
 
-export default function Loading() {
-    return (
-        <main className="w-full h-full bg-amber-800">
-            <h2>Hello I'm under the water</h2>
-            <p>Yo Badassuy</p>
-        </main>
-    )
-}
+const Loader = () => {
+  return (
+    <div className="loader">
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+    </div>
+  );
+};
+
+export default Loader;
