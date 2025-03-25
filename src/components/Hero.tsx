@@ -47,7 +47,7 @@ export default function Hero() {
 
             <div className="socials">
                 {data.hero.socials.map((item, index) => (
-                   <Link key={index} href={item.link} target="blank">
+                   <Link key={index} href={item.link} target="blank" rel={item.name.toLowerCase() == "resume" ? "noopener noreferrer": ""}>
                         <span>{item.name}</span>
                         {icon[item.name.toLowerCase()]}
                     </Link> 
