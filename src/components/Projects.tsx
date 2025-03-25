@@ -1,98 +1,43 @@
-import Image from "next/image";
-import Link from "next/link";
-import { FaPython, FaGithub } from "react-icons/fa";
-import { IoMdOpen } from "react-icons/io";
+    import Image from "next/image";
+    import Link from "next/link";
+    import { FaPython, FaGithub } from "react-icons/fa";
+    import { IoMdOpen } from "react-icons/io";
+    import FadeIndiv from "./motion-comp/FadeIndiv";
+    import { JSX } from "react";
+    import data from "../../public/data.json"
+import React from "react";
 
-export default function Projects() {
-    return (
-        <section className="projects">
-            <h2>Projects</h2>
-            <div className="card-cont">
-                <div className="card ring ring-gray-600">
-                    <div className="links">
-                        <a href="https://github.com/uwdbc/uwdbc-prismic" target="blank"><FaGithub style={{ height: "1.3rem", width: "auto" }} /></a>
-                        <a href="https://uwdbc.com/" target="blank"><IoMdOpen style={{ height: "1.3rem", width: "auto" }} /></a>
-                    </div>
-                    <Image src="/projects/uwdbc.png" alt="UWDBC website Photo" width={398} height={289} />
-                    <Link className="project-details" href="https://uwdbc.com">
-                        <h6>UWDBC</h6>
-                        <p>UWDBC is the perfect website for you family to plan happy vaction to your mom</p>
-                        <div className="tech-stack">
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                        </div>
-                    </Link>
-                </div>
+    const icons:Record<string, JSX.Element> = {
+        "FaPython": <FaPython style={{ height: "2rem", width: "auto" }} />
+    }
 
-                <div className="card ring ring-gray-600">
-                    <div className="links">
-                        <a href="https://github.com/uwdbc/uwdbc-prismic" target="blank"><FaGithub style={{ height: "1.3rem", width: "auto" }} /></a>
-                        <a href="https://uwdbc.com/" target="blank"><IoMdOpen style={{ height: "1.3rem", width: "auto" }} /></a>
-                    </div>
-                    <Image src="/projects/uwdbc.png" alt="UWDBC website Photo" width={398} height={289} />
-                    <div className="project-details">
-                        <h6>UWDBC</h6>
-                        <p>UWDBC is the perfect website for you family to plan happy vaction to your mom</p>
-                        <div className="tech-stack">
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                        </div>
-                    </div>
+    export default function Projects() {
+        return (
+            <section className="projects" id="projects">
+                <h2>Projects</h2>
+                <div className="card-cont">
+                    {data.projects.data.map((item, index)=>(
+                        <FadeIndiv key={index} className="card ring ring-gray-600">
+                            <div className="links">
+                                <a href={item["project-link"]}
+                                    target="blank"><FaGithub style={{ height: "1.3rem", width: "auto" }} /></a>
+                                <a href={item["github-link"]} target="blank"><IoMdOpen style={{ height: "1.3rem", width: "auto" }} /></a>
+                            </div>
+                            <Image src={item["image-path"]} alt={item["image-alt"]} width={398} height={289} />
+                            <Link className="project-details" href={item["project-link"]}>
+                                <h6>{item.Header}</h6>
+                                <p>{item.description}</p>
+                                <div className="tech-stack">
+                                    {item["tech-stack"].map((tech, i)=> (
+                                        <React.Fragment key={i}>
+                                            {icons[tech]}
+                                        </React.Fragment>
+                                    ))}
+                                </div>
+                            </Link>
+                        </FadeIndiv>
+                    ))}
                 </div>
-
-                <div className="card ring ring-gray-600">
-                    <div className="links">
-                        <a href="https://github.com/uwdbc/uwdbc-prismic" target="blank"><FaGithub style={{ height: "1.3rem", width: "auto" }} /></a>
-                        <a href="https://uwdbc.com/" target="blank"><IoMdOpen style={{ height: "1.3rem", width: "auto" }} /></a>
-                    </div>
-                    <Image src="/projects/uwdbc.png" alt="UWDBC website Photo" width={398} height={289} />
-                    <div className="project-details">
-                        <h6>UWDBC</h6>
-                        <p>UWDBC is the perfect website for you family to plan happy vaction to your mom</p>
-                        <div className="tech-stack">
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card ring ring-gray-600">
-                    <div className="links">
-                        <a href="https://github.com/uwdbc/uwdbc-prismic" target="blank"><FaGithub style={{ height: "1.3rem", width: "auto" }} /></a>
-                        <a href="https://uwdbc.com/" target="blank"><IoMdOpen style={{ height: "1.3rem", width: "auto" }} /></a>
-                    </div>
-                    <Image src="/projects/uwdbc.png" alt="UWDBC website Photo" width={398} height={289} />
-                    <div className="project-details">
-                        <h6>UWDBC</h6>
-                        <p>UWDBC is the perfect website for you family to plan happy vaction to your mom</p>
-                        <div className="tech-stack">
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card ring ring-gray-600">
-                    <div className="links">
-                        <a href="https://github.com/uwdbc/uwdbc-prismic" target="blank"><FaGithub style={{ height: "1.3rem", width: "auto" }} /></a>
-                        <a href="https://uwdbc.com/" target="blank"><IoMdOpen style={{ height: "1.3rem", width: "auto" }} /></a>
-                    </div>
-                    <Image src="/projects/uwdbc.png" alt="UWDBC website Photo" width={398} height={289} />
-                    <div className="project-details">
-                        <h6>UWDBC</h6>
-                        <p>UWDBC is the perfect website for you family to plan happy vaction to your mom</p>
-                        <div className="tech-stack">
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                            <FaPython style={{ height: "2rem", width: "auto" }}/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
-}
+            </section>
+        )
+    }

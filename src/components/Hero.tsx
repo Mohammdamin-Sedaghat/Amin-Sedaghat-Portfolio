@@ -1,11 +1,21 @@
 import Image from "next/image"
 import Link from "next/link"
+import Header from "./motion-comp/Header"
+import RotatingText from "./ui/RotatingText"
+import data from "../../public/data.json"
+
 import Linkedin from "./icons/Linkedin"
 import Github from "./icons/Github"
 import Resume from "./icons/Resume"
 import Instagram from "./icons/Instagram"
-import RotatingText from "./ui/RotatingText"
-import Header from "./motion-comp/Header"
+import { JSX } from "react"
+
+const icon: Record<string, JSX.Element> = {
+    "linkedin": <Linkedin />,
+    "github": <Github />,
+    "resume": <Resume />,
+    "instagram": <Instagram />
+}
 
 export default function Hero() {
     return (
@@ -20,7 +30,7 @@ export default function Hero() {
             <div className="overlay"></div>
             <Image 
                 src="/tree.png"
-                alt="Black and White Moutain with Serrounding Fog"
+                alt="Trees"
                 width={1620}
                 height={620}
                 className="trees"
@@ -36,22 +46,13 @@ export default function Hero() {
             </div>
 
             <div className="socials">
-                <Link href="https://www.linkedin.com/in/mohammadamin-sedaghat/" target="blank">
-                    <span>Linkedin</span>
-                    <Linkedin />
-                </Link>
-                <Link href="https://github.com/Mohammdamin-Sedaghat" target="blank">
-                    <span>Github</span>
-                    <Github />
-                </Link>
-                <Link href="/">
-                    <span>Resume</span>
-                    <Resume />
-                </Link>
-                <Link href="https://www.instagram.com/amin_sed_/" target="blank">
-                    <span>Instagram</span>
-                    <Instagram />
-                </Link>
+                {data.hero.socials.map((item, index) => (
+                   <Link key={index} href={item.link} target="blank">
+                        <span>{item.name}</span>
+                        {icon[item.name.toLowerCase()]}
+                    </Link> 
+                ))}
+                
             </div>
         </header>
     )

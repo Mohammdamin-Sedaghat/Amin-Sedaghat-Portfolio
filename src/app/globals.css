@@ -26,6 +26,7 @@ body {
   font-family: var(--font-inter);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -209,6 +210,10 @@ header h2 {
   ====
 */
 
+header {
+  overflow: hidden;
+}
+
 @media only screen and (max-width:550px) {
   .socials a:hover span {
     display: none;
@@ -346,6 +351,7 @@ h2 {
   align-items: center;
   border-radius: 8px;
   transition: all 0.5s ease-in;
+  background-color: #151515;
 }
 
 .card:hover {

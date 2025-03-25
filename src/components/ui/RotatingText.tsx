@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from "react";
+import data from "../../../public/data.json"
 
 export default function RotatingText() {
     useEffect(()=>{
@@ -47,10 +48,9 @@ export default function RotatingText() {
 
     return (
         <div className="rotating-text">
-            <span className="word" style={{color:"#e74c3c"}}>Software Engineer</span>
-            <span className="word" style={{color:"#8e44ad"}}>Climber</span>
-            <span className="word" style={{color:"#2ecc71"}}>AI Enthusiast</span>
-            <span className="word" style={{color:"#f1c40f"}}>Full Stack Developer</span>
+            {data.hero["rotating-text"].map((item, key) => (
+                <span key={key} className="word" style={{color:item.color}}>{item.word}</span>
+            ))}
         </div>
     )
 }

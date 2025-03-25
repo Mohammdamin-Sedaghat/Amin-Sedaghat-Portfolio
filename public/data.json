@@ -1,0 +1,134 @@
+{
+    "hero": {
+        "rotating-text": [
+            {
+                "color": "#e74c3c",
+                "word": "Software Engineer"
+            },
+            {
+                "color": "#8e44ad",
+                "word": "Climber"
+            },
+            {
+                "color": "#2ecc71",
+                "word": "AI Enthusiast"
+            },
+            {
+                "color": "#f1c40f",
+                "word": "Full Stack Developer"
+            }
+        ],
+        "socials": [
+            {
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/mohammadamin-sedaghat/"
+            },
+            {
+                "name": "Github",
+                "link": "https://github.com/Mohammdamin-Sedaghat"
+            }
+            ,{
+                "name": "Resume",
+                "link": "/"
+            },
+            {
+                "name": "Instagram",
+                "link": "https://www.instagram.com/amin_sed_/"
+            }
+        ]
+    },
+    "aboutMe": {
+        "paragraphs": [
+            "I’m a Computer Science student at the University of Waterloo with a deep passion for machine learning and artificial intelligence. I thrive at the intersection of AI, software engineering, and data science, constantly exploring innovative ways to apply AI to real-world challenges. Beyond AI, I enjoy full-stack development, Game Development and Web Development.",
+            "When I’m not coding, you’ll probably find me snowboarding, reading science fiction, or climbing. I’m always open to new challenges, collaborations, and learning opportunities—let’s build something amazing! Shoot me an email if you want to work on a project together!"
+        ]
+    },
+    "RandomFunFacts": {
+        "data": [{
+            "icon": "IoMdCheckmark",
+            "description": "Your Mom"
+        },{
+            "icon": "IoMdCheckmark",
+            "description": "Your Mom"
+        },{
+            "icon": "IoMdCheckmark",
+            "description": "Your Mom"
+        },{
+            "icon": "IoMdCheckmark",
+            "description": "Your Mom"
+        },{
+            "icon": "IoMdCheckmark",
+            "description": "Your Mom"
+        }]
+    },
+    "projects": {
+        "data":[
+            {
+                "image-path": "/projects/uwdbc.png",
+                "image-alt": "UWDBC website Photo",
+                "Header": "UWDBC",
+                "description": "UWDBC is the perfect website for you family to plan happy vaction to your mom",
+                "tech-stack": ["FaPython","FaPython","FaPython"],
+                "github-link": "https://github.com/uwdbc/uwdbc-prismic",
+                "project-link": "https://uwdbc.com/"
+            },
+            {
+                "image-path": "/projects/uwdbc.png",
+                "image-alt": "UWDBC website Photo",
+                "Header": "UWDBC",
+                "description": "UWDBC is the perfect website for you family to plan happy vaction to your mom",
+                "tech-stack": ["FaPython","FaPython","FaPython"],
+                "github-link": "https://github.com/uwdbc/uwdbc-prismic",
+                "project-link": "https://uwdbc.com/"
+            },
+            {
+                "image-path": "/projects/uwdbc.png",
+                "image-alt": "UWDBC website Photo",
+                "Header": "UWDBC",
+                "description": "UWDBC is the perfect website for you family to plan happy vaction to your mom",
+                "tech-stack": ["FaPython","FaPython","FaPython"],
+                "github-link": "https://github.com/uwdbc/uwdbc-prismic",
+                "project-link": "https://uwdbc.com/"
+            }
+        ]
+    },
+    "experiences": {
+        "data": [{
+            "title": "Lead Full Stack Web Developer",
+            "location": "UWDBC",
+            "date": "Jan-2024/Present",
+            "bulletPoints": [
+                "Ate you are your friends",
+                "Blah blah blah",
+                "side details relly fucking long paragrpah idk what to put here I just wanty to make it long don’t lread it"
+            ]
+        },{
+            "title": "Lead Full Stack Web Developer",
+            "location": "UWDBC",
+            "date": "Jan-2024/Present",
+            "bulletPoints": [
+                "Ate you are your friends",
+                "Blah blah blah",
+                "side details relly fucking long paragrpah idk what to put here I just wanty to make it long don’t lread it"
+            ]
+        },{
+            "title": "Lead Full Stack Web Developer",
+            "location": "UWDBC",
+            "date": "Jan-2024/Present",
+            "bulletPoints": [
+                "Ate you are your friends",
+                "Blah blah blah",
+                "side details relly fucking long paragrpah idk what to put here I just wanty to make it long don’t lread it"
+            ]
+        },{
+            "title": "Lead Full Stack Web Developer",
+            "location": "UWDBC",
+            "date": "Jan-2024/Present",
+            "bulletPoints": [
+                "Ate you are your friends",
+                "Blah blah blah",
+                "side details relly fucking long paragrpah idk what to put here I just wanty to make it long don’t lread it"
+            ]
+        }]
+    }
+}

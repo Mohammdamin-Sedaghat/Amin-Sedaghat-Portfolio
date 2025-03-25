@@ -2,6 +2,7 @@
 
 import { useEffect } from "react"
 import { Input } from "./ui/input"
+import FadeIndiv from "./motion-comp/FadeIndiv"
 
 export default function ContactMe() {
     useEffect(()=>{
@@ -29,7 +30,7 @@ export default function ContactMe() {
     },[])
 
     return (
-        <section className="contact">
+        <FadeIndiv className="contact">
             <h2>Contact Me</h2>
             <form action="https://formspree.io/f/mgvayore" method="POST" id="contact-form">
                 <Input className="w-full" type="text" name="name" placeholder="Your Name" required/>
@@ -43,7 +44,7 @@ export default function ContactMe() {
                     <BottomGradient />
                 </button>
             </form>
-        </section>
+        </FadeIndiv>
         )
 }
 
