@@ -59,6 +59,9 @@
         },{
             "icon": "IoDiamond",
             "description": "I can make jewelry"
+        },{
+            "icon": "GiTrident",
+            "description": "I have read all Percy Jackson Books"
         }]
     },
     "projects": {

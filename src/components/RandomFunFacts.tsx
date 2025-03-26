@@ -1,5 +1,5 @@
 "use client"
-import { GiMountainClimbing, GiSpikedDragonHead } from "react-icons/gi";
+import { GiMountainClimbing, GiSpikedDragonHead, GiTrident } from "react-icons/gi";
 import { HiOutlineTrophy } from "react-icons/hi2";
 import { IoDiamond } from "react-icons/io5";
 
@@ -12,7 +12,8 @@ const icons:Record<string, JSX.Element> = {
     "GiMountainClimbing": <GiMountainClimbing />,
     "HiOutlineTrophy": <HiOutlineTrophy />,
     "GiSpikedDragonHead": <GiSpikedDragonHead />,
-    "IoDiamond": <IoDiamond />
+    "IoDiamond": <IoDiamond />,
+    "GiTrident": <GiTrident />,
 }
 
 export default function RandomFunFacts() {
