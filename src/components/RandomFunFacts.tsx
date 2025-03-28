@@ -1,20 +1,19 @@
 "use client"
 import { GiMountainClimbing, GiSpikedDragonHead, GiTrident } from "react-icons/gi";
-import { HiOutlineTrophy } from "react-icons/hi2";
 import { IoDiamond } from "react-icons/io5";
+import { TbMathFunctionY } from "react-icons/tb";
 
 import * as motion from "motion/react-client";
 import { cn } from "@/lib/utils";
 import data from "../../public/data.json"
 import { JSX } from "react";
-import { CiMusicNote1 } from "react-icons/ci";
 
 const icons:Record<string, JSX.Element> = {
     "GiMountainClimbing": <GiMountainClimbing />,
-    "HiOutlineTrophy": <HiOutlineTrophy />,
     "GiSpikedDragonHead": <GiSpikedDragonHead />,
     "IoDiamond": <IoDiamond />,
     "GiTrident": <GiTrident />,
+    "TbMathFunctionY": <TbMathFunctionY />
 }
 
 export default function RandomFunFacts() {
