@@ -7,6 +7,7 @@ import * as motion from "motion/react-client";
 import { cn } from "@/lib/utils";
 import data from "../../public/data.json"
 import { JSX } from "react";
+import { CiMusicNote1 } from "react-icons/ci";
 
 const icons:Record<string, JSX.Element> = {
     "GiMountainClimbing": <GiMountainClimbing />,
@@ -14,6 +15,7 @@ const icons:Record<string, JSX.Element> = {
     "GiSpikedDragonHead": <GiSpikedDragonHead />,
     "IoDiamond": <IoDiamond />,
     "GiTrident": <GiTrident />,
+    "CiMusicNote1": <CiMusicNote1 />
 }
 
 export default function RandomFunFacts() {

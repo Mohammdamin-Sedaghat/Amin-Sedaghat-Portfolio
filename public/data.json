@@ -50,10 +50,10 @@
     "RandomFunFacts": {
         "data": [{
             "icon": "GiMountainClimbing",
-            "description": "I Snowboard on Winters and Climb Rocks on the rest of the year"
+            "description": "I snowboard in the winter and rock climb for the rest of the year."
         },{
-            "icon": "HiOutlineTrophy",
-            "description": "I got 26th place globally For SIN Physics Contest"
+            "icon": "CiMusicNote1",
+            "description": "I play Tar, an ancient instrument"
         },{
             "icon": "GiSpikedDragonHead",
             "description": "I'm part of the UW Dragon Boat Club"
