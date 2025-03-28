@@ -15,7 +15,6 @@ const icons:Record<string, JSX.Element> = {
     "GiSpikedDragonHead": <GiSpikedDragonHead />,
     "IoDiamond": <IoDiamond />,
     "GiTrident": <GiTrident />,
-    "CiMusicNote1": <CiMusicNote1 />
 }
 
 export default function RandomFunFacts() {
