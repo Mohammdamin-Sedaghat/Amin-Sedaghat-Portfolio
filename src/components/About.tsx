@@ -9,7 +9,7 @@ export default function About() {
             <p>
                 {data.aboutMe.paragraphs.map((item, index)=>(
                 <React.Fragment key={index}>
-                    {item}
+                    <span dangerouslySetInnerHTML={{__html:item}} />
                     <br />
                     <br />
                 </React.Fragment>

@@ -43,7 +43,8 @@
     },
     "aboutMe": {
         "paragraphs": [
-            "I’m a Computer Science student at the University of Waterloo with a deep passion for machine learning and artificial intelligence. My Areas of strength are AI, software engineering, and data science, constantly exploring innovative ways to apply AI to real-world challenges. Beyond AI, I enjoy full-stack development, Game Development and Web Development."
+            "I'm a Computer Science student at the University of Waterloo with a deep passion for machine learning and artificial intelligence. My story started in 2018 when I decided to prepare for the Physics Olympiad. Fast-forward to 2024, and I got 45th globally in the Sir Issac Newton's Physics Contest with over 3000 participants. Next year, I gave it another shot and I scored 49/48 (don't ask me how; I don't know either), and secured 26th place globally and 10th in Canada.",
+            "But Physics wasn't the only thing, I dedicated my time to. I also coded on the side and learned a lot. I have contributed to Machine Learning, Full Stack Development, Game Development, and Web Development projects. If there's one thing you should know about me, it's that <b>I love challenges.</b>"
         ]
     },
     "RandomFunFacts": {
@@ -52,16 +53,13 @@
             "description": "I Snowboard on Winters and Climb Rocks on the rest of the year"
         },{
             "icon": "HiOutlineTrophy",
-            "description": "I Was in the Olympiad Prepration team of my highschool"
+            "description": "I got 26th place globally For SIN Physics Contest"
         },{
             "icon": "GiSpikedDragonHead",
             "description": "I'm part of the UW Dragon Boat Club"
         },{
             "icon": "IoDiamond",
             "description": "I can make jewelry"
-        },{
-            "icon": "GiTrident",
-            "description": "I have read all Percy Jackson Books"
         }]
     },
     "projects": {
