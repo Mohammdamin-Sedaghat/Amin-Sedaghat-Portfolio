@@ -29,8 +29,8 @@ export default function Projects() {
                     <FadeIndiv key={index} className="card ring ring-gray-600">
                         <div className="links">
                             <a href={item["project-link"]}
-                                target="blank"><FaGithub style={{ height: "1.3rem", width: "auto" }} /></a>
-                            <a href={item["github-link"]} target="blank"><IoMdOpen style={{ height: "1.3rem", width: "auto" }} /></a>
+                                target="blank"><FaGithub style={{ height: "1.3rem", width: "auto", fill: "#FFF" }} /></a>
+                            <a href={item["github-link"]} target="blank"><IoMdOpen style={{ height: "1.3rem", width: "auto", fill: "#FFF" }} /></a>
                         </div>
                         <Image src={item["image-path"]} alt={item["image-alt"]} width={398} height={289} />
                         <Link className="project-details" href={item["project-link"]}>
