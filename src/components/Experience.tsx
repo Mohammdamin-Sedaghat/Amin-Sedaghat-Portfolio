@@ -20,11 +20,11 @@ export default function Experience() {
                                 </div>
                             </div>
                             
-                            <ul className="description list-disc">
+                            {/* <ul className="description list-disc">
                                 {item.bulletPoints.map((point,i)=>(
                                     <li key={i}>{point}</li>
                                 ))}
-                            </ul>
+                            </ul> */}
                         </FadeIndiv>
                     ))}
                     
