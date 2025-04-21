@@ -43,8 +43,8 @@
     },
     "aboutMe": {
         "paragraphs": [
-            "I'm a Computer Science student at the University of Waterloo with a deep passion for machine learning and artificial intelligence. My story started in 2018 when I decided to prepare for the Physics Olympiad. Fast-forward to 2023, and I got 45th globally in the Sir Issac Newton's Physics Contest with over 3000 participants. Next year, I gave it another shot and I scored 49/48 (don't ask me how; I don't know either), and secured 26th place globally and 10th in Canada.",
-            "But Physics wasn't the only thing, I dedicated my time to. I also coded on the side and learned a lot. I have contributed to Machine Learning, Full Stack Development, Game Development, and Web Development projects. If there's one thing you should know about me, it's that <b>I love challenges.</b>"
+            "I'm a Computer Science student at the University of Waterloo with a deep passion for machine learning and artificial intelligence. My story started in 2018 when I decided to prepare for the Physics Olympiad. Fast-forward to 2023, and I got <strong>45th</strong> globally in the Sir Issac Newton's Physics Contest with over <strong>3000</strong> participants. Next year, I gave it another shot and I scored <strong>49/48</strong> (don't ask me how; I don't know either), and secured 26th place globally and <strong>10th</strong> in Canada.",
+            "But Physics wasn't the only thing, I dedicated my time to. I also coded on the side and learned a lot. I have contributed to Machine Learning, Full Stack Development, Game Development, and Web Development projects. If there's one thing you should know about me, it's that <strong>I love challenges.<strong>"
         ]
     },
     "RandomFunFacts": {

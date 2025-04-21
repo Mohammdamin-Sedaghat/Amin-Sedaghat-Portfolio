@@ -337,6 +337,10 @@ h2 {
   margin-top: 2rem;
 }
 
+.about strong {
+  color: #3498db;
+}
+
 @media only screen and (max-width:500px) {
   .about {
     margin-top: 4rem;
