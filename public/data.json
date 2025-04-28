@@ -72,6 +72,14 @@
                 "tech-stack": ["FaCss3Alt","FaHtml5","IoLogoJavascript"],
                 "github-link": "https://github.com/Mohammdamin-Sedaghat/Snake-Futuristica",
                 "project-link": "https://github.com/Mohammdamin-Sedaghat/Snake-Futuristica"
+            },{
+                "image-path": "/projects/code.avif",
+                "image-alt": "Bunch of Binaries going up and down",
+                "Header": "Compiler/Interpretter",
+                "description": "The SIMPL/PRIMPL Compiler + Intrepretter for Racket",
+                "tech-stack": ["SiRacket"],
+                "github-link": "https://github.com/Mohammdamin-Sedaghat/Cool-Stuff/tree/main/racket-problems/Language",
+                "project-link": "https://github.com/Mohammdamin-Sedaghat/Cool-Stuff/tree/main/racket-problems/Language"
             },
             {
                 "image-path": "/projects/Accentify.png",

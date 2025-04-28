@@ -7,7 +7,7 @@ import data from "../../public/data.json"
 
 import { FaPython, FaGithub, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript, IoMdOpen } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
+import { SiRacket, SiTypescript } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 
 const icons:Record<string, JSX.Element> = {
@@ -18,6 +18,7 @@ const icons:Record<string, JSX.Element> = {
     "SiTypescript": <SiTypescript style={{ height: "1.4rem", width: "auto" }} />,
     "RiNextjsFill": <RiNextjsFill style={{ height: "2rem", width: "auto" }} />,
     "FaNodeJs": <FaNodeJs style={{ height: "1.8rem", width: "auto" }} />,
+    "SiRacket": <SiRacket style={{ height: "1.8rem", width: "auto" }} />
 }
 
 export default function Projects() {
