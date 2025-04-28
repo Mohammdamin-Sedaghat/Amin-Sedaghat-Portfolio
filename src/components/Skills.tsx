@@ -3,11 +3,16 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 //importing the icons
 import {
-    FaPython, FaJava, FaNodeJs, FaReact, FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaJs, FaFlask
+    FaPython, FaJava, FaNodeJs, FaReact, FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaJs,
+    FaDocker
 } from "react-icons/fa";
 import {
-    SiC, SiCplusplus, SiTypescript, SiLatex, SiGnubash, SiRacket, SiNextdotjs, SiExpress, SiVite, SiPandas, SiNumpy, SiScikitlearn, SiScrapy, SiHaskell, SiMongodb, SiJupyter, SiVercel, SiFigma, SiPrismic
+    SiC, SiCplusplus, SiTypescript, SiGnubash, SiRacket, SiNextdotjs, SiExpress, SiVite, SiPandas, SiNumpy, SiScikitlearn, SiScrapy, SiHaskell, SiMongodb, SiJupyter, SiVercel, SiFigma, SiPrismic,
+    SiFlask,
+    SiPostgresql,
+    SiSqlalchemy
 } from "react-icons/si";
+import { VscAzure } from "react-icons/vsc";
 
 const skills: {
     icon: JSX.Element;
@@ -17,15 +22,18 @@ const skills: {
         { icon: <SiC style={{ height: "2.1rem", width: "auto" }} />, name: "C" },
         { icon: <SiCplusplus style={{ height: "2.1rem", width: "auto" }} />, name: "C++" },
         { icon: <FaJava style={{ height: "2.1rem", width: "auto" }} />, name: "Java" },
+        { icon: <VscAzure style={{ height: "2.1rem", width: "auto" }} />, name: "Azure" },
         { icon: <FaJs style={{ height: "2.1rem", width: "auto" }} />, name: "JavaScript" },
+        { icon: <FaDocker style={{ height: "2.1rem", width: "auto" }} />, name: "Docker" },
         { icon: <SiTypescript style={{ height: "2.1rem", width: "auto" }} />, name: "TypeScript" },
         { icon: <FaHtml5 style={{ height: "2.1rem", width: "auto" }} />, name: "HTML" },
         { icon: <FaCss3Alt style={{ height: "2.1rem", width: "auto" }} />, name: "CSS" },
         { icon: <SiGnubash style={{ height: "2.1rem", width: "auto" }} />, name: "Bash" },
-        { icon: <SiLatex style={{ height: "2.1rem", width: "auto" }} />, name: "LaTeX" },
         { icon: <SiHaskell style={{ height: "2.1rem", width: "auto" }} />, name: "Haskell" },
         { icon: <SiRacket style={{ height: "2.1rem", width: "auto" }} />, name: "Racket" },
-        { icon: <FaFlask style={{ height: "2.1rem", width: "auto" }} />, name: "Flask" },
+        { icon: <SiFlask style={{ height: "2.1rem", width: "auto" }} />, name: "Flask" },
+        { icon: <SiPostgresql style={{ height: "2.1rem", width: "auto" }} />, name: "Postgres" },
+        { icon: <SiSqlalchemy style={{ height: "2.1rem", width: "auto" }} />, name: "SQLAlchemy" },
         { icon: <SiPandas style={{ height: "2.1rem", width: "auto" }} />, name: "Pandas" },
         { icon: <FaReact style={{ height: "2.1rem", width: "auto" }} />, name: "React" },
         { icon: <SiNextdotjs style={{ height: "2.1rem", width: "auto" }} />, name: "Next.js" },
