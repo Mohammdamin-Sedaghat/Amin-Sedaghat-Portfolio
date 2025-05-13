@@ -499,7 +499,7 @@ h2 {
 
 .links svg {
   fill: #c8c8c8;
-  box-shadow: 0px 0px 10px #1212124f;
+  /* box-shadow: 0px 0px 10px #1212124f; */
   border-radius: 50%;
 }
 

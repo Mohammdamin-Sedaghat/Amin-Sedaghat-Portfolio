@@ -6,10 +6,11 @@ import FadeIndiv from "./motion-comp/FadeIndiv";
 import data from "../../public/data.json"
 
 import { FaPython, FaGithub, FaHtml5, FaCss3Alt, FaNodeJs, FaDocker } from "react-icons/fa";
-import { IoLogoJavascript, IoMdOpen } from "react-icons/io";
+import { IoLogoJavascript } from "react-icons/io";
 import { SiFlask, SiRacket, SiTypescript } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { DiPostgresql } from "react-icons/di";
+import { PiLink } from "react-icons/pi";
 
 const icons:Record<string, JSX.Element> = {
     "FaPython": <FaPython style={{ height: "2rem", width: "auto" }} />,
@@ -34,8 +35,8 @@ export default function Projects() {
                     <FadeIndiv key={index} className="card ring ring-gray-600">
                         <div className="links">
                             <a href={item["project-link"]}
-                                target="blank"><FaGithub style={{ height: "1.3rem", width: "auto", fill: "#FFF" }} /></a>
-                            <a href={item["github-link"]} target="blank"><IoMdOpen style={{ height: "1.3rem", width: "auto", fill: "#FFF" }} /></a>
+                                target="blank"><FaGithub style={{ height: "1.3rem", width: "auto", fill: (item.col == "light" ? "#FFF" : "#000") }} /></a>
+                            <a href={item["github-link"]} target="blank"><PiLink style={{ height: "1.3rem", width: "auto", fill: (item.col == "light" ? "#FFF" : "#000") }} /></a>
                         </div>
                         <Image src={item["image-path"]} alt={item["image-alt"]} width={398} height={289} />
                         <Link className="project-details" href={item["project-link"]}>
