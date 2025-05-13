@@ -26,6 +26,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
+  padding-bottom: 5rem;
 }
 
 html {
@@ -191,7 +192,7 @@ header h2 {
 }
 
 .socials {
-  position: absolute;
+  position: fixed;
   right: 5%;
   top: 28%;
 
@@ -202,6 +203,7 @@ header h2 {
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
+  z-index: 100;
   align-items: flex-end;
 }
 
@@ -286,10 +288,18 @@ header {
   }
 
   .socials {
-    top: 4%;
-    right: 50%;
-    transform: translateX(50%);
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    padding-top: 3vh;
+    background-color: #121212;
+    /* transform: translateX(50%); */
     flex-direction: row;
+    box-shadow:
+      0 3vh 3vh -2vh rgba(18, 18, 18, 1),
+      0 4vh 4vh -1vh rgba(18, 18, 18, 0.66),
+      0 5vh 5vh  0   rgba(18, 18, 18, 0.33),
+      0 6vh 6vh  1vh rgba(18, 18, 18, 0);
   }
 }
 
@@ -387,7 +397,7 @@ h2 {
   justify-content: center;
   gap: 1rem;
   width: 100%;
-  padding-inline: 2rem;
+  padding-inline: 4.5rem;
   max-width: 1600px;
   margin-top: 2.5rem;
   padding-bottom: 4rem;
