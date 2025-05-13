@@ -5,10 +5,11 @@ import Link from "next/link";
 import FadeIndiv from "./motion-comp/FadeIndiv";
 import data from "../../public/data.json"
 
-import { FaPython, FaGithub, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
+import { FaPython, FaGithub, FaHtml5, FaCss3Alt, FaNodeJs, FaDocker } from "react-icons/fa";
 import { IoLogoJavascript, IoMdOpen } from "react-icons/io";
-import { SiRacket, SiTypescript } from "react-icons/si";
+import { SiFlask, SiRacket, SiTypescript } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
+import { DiPostgresql } from "react-icons/di";
 
 const icons:Record<string, JSX.Element> = {
     "FaPython": <FaPython style={{ height: "2rem", width: "auto" }} />,
@@ -18,7 +19,10 @@ const icons:Record<string, JSX.Element> = {
     "SiTypescript": <SiTypescript style={{ height: "1.4rem", width: "auto" }} />,
     "RiNextjsFill": <RiNextjsFill style={{ height: "2rem", width: "auto" }} />,
     "FaNodeJs": <FaNodeJs style={{ height: "1.8rem", width: "auto" }} />,
-    "SiRacket": <SiRacket style={{ height: "1.8rem", width: "auto" }} />
+    "SiRacket": <SiRacket style={{ height: "1.8rem", width: "auto" }} />,
+    "SiFlask": <SiFlask style={{ height: "1.8rem", width: "auto" }} />,
+    "DiPostgresql": <DiPostgresql style={{ height: "1.8rem", width: "auto" }} />,
+    "FaDocker": <FaDocker style={{ height: "1.8rem", width: "auto" }} />,
 }
 
 export default function Projects() {

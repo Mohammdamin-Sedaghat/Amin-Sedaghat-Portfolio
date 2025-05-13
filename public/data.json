@@ -48,12 +48,13 @@
         ]
     },
     "RandomFunFacts": {
-        "data": [{
+        "data": [
+        {
+            "icon": "TbMathFunctionY",
+            "description": "First place in Canadian Team mathematics Contest 2024 - individual section"
+        },{
             "icon": "GiMountainClimbing",
             "description": "I snowboard in the winter and rock climb for the rest of the year"
-        },{
-            "icon": "TbMathFunctionY",
-            "description": "I got first place in the CTMC 2024 math contest - individual section"
         },{
             "icon": "GiSpikedDragonHead",
             "description": "I'm part of the UW Dragon Boat Club"
@@ -65,14 +66,15 @@
     "projects": {
         "data":[
             {
-                "image-path": "/projects/SnakeFuturista.png",
-                "image-alt": "Snake Futuristica Gameplay",
-                "Header": "Snake Futuristica",
-                "description": "Snake Futuristica is the futuristic take on the classic snake game! 🔮",
-                "tech-stack": ["FaCss3Alt","FaHtml5","IoLogoJavascript"],
-                "github-link": "https://github.com/Mohammdamin-Sedaghat/Snake-Futuristica",
-                "project-link": "https://github.com/Mohammdamin-Sedaghat/Snake-Futuristica"
-            },{
+                "image-path": "/projects/UWPLanner.png",
+                "image-alt": "UWPlanner landing page",
+                "Header": "UWPlanner",
+                "description": "An app made to transform the waterloo elective experience 🌟",
+                "tech-stack": ["FaPython", "FaDocker", "SDiPostgresql","SiFlask","RiNextjsFill"],
+                "github-link": "https://github.com/Mohammdamin-Sedaghat/UWPlanner",
+                "project-link": "https://github.com/Mohammdamin-Sedaghat/UWPlanner"
+            },
+            {
                 "image-path": "/projects/code.avif",
                 "image-alt": "Bunch of Binaries going up and down",
                 "Header": "Compiler/Interpretter",
@@ -80,6 +82,14 @@
                 "tech-stack": ["SiRacket"],
                 "github-link": "https://github.com/Mohammdamin-Sedaghat/Cool-Stuff/tree/main/racket-problems/Language",
                 "project-link": "https://github.com/Mohammdamin-Sedaghat/Cool-Stuff/tree/main/racket-problems/Language"
+            },{
+                "image-path": "/projects/SnakeFuturista.png",
+                "image-alt": "Snake Futuristica Gameplay",
+                "Header": "Snake Futuristica",
+                "description": "Snake Futuristica is the futuristic take on the classic snake game! 🔮",
+                "tech-stack": ["FaCss3Alt","FaHtml5","IoLogoJavascript"],
+                "github-link": "https://github.com/Mohammdamin-Sedaghat/Snake-Futuristica",
+                "project-link": "https://github.com/Mohammdamin-Sedaghat/Snake-Futuristica"
             },
             {
                 "image-path": "/projects/Accentify.png",
