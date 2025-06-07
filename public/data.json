@@ -79,11 +79,20 @@
                 "image-path": "/projects/code.avif",
                 "image-alt": "Bunch of Binaries going up and down",
                 "Header": "Compiler/Interpretter",
-                "description": "The SIMPL/PRIMPL Compiler + Intrepretter for Racket",
+                "description": "The SIMPL/PRIMPL Imprative style Compiler + Racket Interpreter",
                 "tech-stack": ["SiRacket"],
                 "github-link": "https://github.com/Mohammdamin-Sedaghat/Cool-Stuff/tree/main/racket-problems/Language",
                 "project-link": "https://github.com/Mohammdamin-Sedaghat/Cool-Stuff/tree/main/racket-problems/Language",
                 "col": "light"
+            },{
+                "image-path": "/projects/stock.png",
+                "image-alt": "Bunch of Binaries going up and down",
+                "Header": "StockML",
+                "description": "A stock market predictive model",
+                "tech-stack": ["SiPytorch", "FaPython"],
+                "github-link": "https://github.com/Mohammdamin-Sedaghat",
+                "project-link": "https://github.com/Mohammdamin-Sedaghat",
+                "col": "dark"
             },{
                 "image-path": "/projects/SnakeFuturista.png",
                 "image-alt": "Snake Futuristica Gameplay",
@@ -118,37 +127,26 @@
     },
     "experiences": {
         "data": [{
+            "title": "Full Stack Developer Intern",
+            "location": "Capital One",
+            "date": "Incoming Fall 2025"
+        },{
             "title": "Machine Learning Engineer",
             "location": "WAT.AI",
-            "date": "Feb-2025/Present",
-            "bulletPoints": [
-                "Developing an (ANN) algorithm utilizing TensorFlow to enhance operational performance",
-                "Optimizing the extraction, processing, and cleaning of data from the Diskos dataset",
-                "Engineering a predictive model leveraging Support Vector Machines (SVM) and real-time analysis to forecast stone formations"
-            ]
+            "date": "Feb-2025/Present"
         },{
             "title": "Lead Full Stack Web Developer",
             "location": "UWDBC",
-            "date": "Dec-2024/Present",
-            "bulletPoints": [
-                "Recruited and lead a team of three developers to architect, develop, and launch a dynamic web platform using NextJs that enhanced club connectivity with athletes",
-                "Engineered and integrated dynamic content management features using Prismic.io, streamlining update workflows",
-                "Designed the website using figma implementing new pages-including a gallery, executive profile, and store"
-            ]
+            "date": "Dec-2024/Present"
         },{
             "title": "Workshop Lead",
-            "location": "UWDSC",
-            "date": "April-2024/Present",
+            "location": "UW Data Science Club",
+            "date": "April-2025/Present",
             "bulletPoints": []
         },{
             "title": "Software Developer Engineer",
             "location": "UWCSC",
-            "date": "Sep 2024 – Dec 2024",
-            "bulletPoints": [
-                "Developing a predictive model, Stock ML, using RNN (LSTM) to analyze stock market trends based on sentiment analysis of financial news and historical data",
-                "Building a web-scraping tool with Python, Newspaper3k, and Scrapy to gather targeted financial news for sentiment analysis",
-                "Integrating Alpha Vantage API to access and incorporate real-time and historical stock data into predictive analysis workflows"
-            ]
+            "date": "Sep 2024 – Dec 2024"
         }]
     }
 }
