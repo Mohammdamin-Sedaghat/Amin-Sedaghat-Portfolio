@@ -426,15 +426,16 @@ h2 {
 
 .card:hover {
   .tech-stack {
-    display: grid;
+    /* height: 0px; */
   }
 
   .project-details {
-    transform: translateY(-90%);
+    /* transform: translateY(-90%); */
+    height: 15rem;
   }
 
 
-  .project-details > p {
+  .project-details p {
     -webkit-line-clamp: initial;
     overflow: auto;
     white-space: initial;
@@ -459,11 +460,19 @@ h2 {
   position: absolute;
   bottom: 0;
   height: 6.8rem;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding-inline: 0.6rem 0.8rem;
   background-color: #151515;
   padding-bottom: 1rem;
   transition: all 0.5s ease-in;
   cursor: pointer;
+}
+
+.project-details > .container {
+  min-height: 9rem;
 }
 
 .project-details h6 {
@@ -475,7 +484,7 @@ h2 {
   color: #f1c40f;
 }
 
-.project-details > p {
+.project-details p {
   font-weight: 200;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -490,7 +499,7 @@ h2 {
   grid-template-columns: repeat(8, 1fr);
   padding-right: 1.2rem;
   justify-items: center;
-  display: none;
+  /* display: none; */
   transition: all 0.5s ease-in;
 }
 

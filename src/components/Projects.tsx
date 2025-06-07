@@ -7,7 +7,7 @@ import data from "../../public/data.json"
 
 import { FaPython, FaGithub, FaHtml5, FaCss3Alt, FaNodeJs, FaDocker } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiFlask, SiRacket, SiTypescript } from "react-icons/si";
+import { SiFlask, SiPytorch, SiRacket, SiTypescript } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { DiPostgresql } from "react-icons/di";
 import { PiLink } from "react-icons/pi";
@@ -24,6 +24,7 @@ const icons:Record<string, JSX.Element> = {
     "SiFlask": <SiFlask style={{ height: "1.8rem", width: "auto" }} />,
     "DiPostgresql": <DiPostgresql style={{ height: "1.8rem", width: "auto" }} />,
     "FaDocker": <FaDocker style={{ height: "1.8rem", width: "auto" }} />,
+    "SiPytorch": <SiPytorch style={{ height: "1.8rem", width: "auto" }} />,
 }
 
 export default function Projects() {
@@ -40,8 +41,10 @@ export default function Projects() {
                         </div>
                         <Image src={item["image-path"]} alt={item["image-alt"]} width={398} height={289} />
                         <Link className="project-details" href={item["project-link"]}>
-                            <h6>{item.Header}</h6>
-                            <p>{item.description}</p>
+                            <div className="container">
+                                <h6>{item.Header}</h6>
+                                <p>{item.description}</p>
+                            </div>
                             <div className="tech-stack">
                                 {item["tech-stack"].map((tech, i)=> (
                                     <React.Fragment key={i}>
