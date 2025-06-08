@@ -85,7 +85,7 @@
                 "project-link": "https://github.com/Mohammdamin-Sedaghat/Cool-Stuff/tree/main/racket-problems/Language",
                 "col": "light"
             },{
-                "image-path": "/projects/stock.png",
+                "image-path": "/projects/Stock.png",
                 "image-alt": "Bunch of Binaries going up and down",
                 "Header": "StockML",
                 "description": "A stock market predictive model",
