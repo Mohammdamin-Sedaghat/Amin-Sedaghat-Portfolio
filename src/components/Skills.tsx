@@ -10,7 +10,9 @@ import {
     SiC, SiCplusplus, SiTypescript, SiGnubash, SiRacket, SiNextdotjs, SiExpress, SiVite, SiPandas, SiNumpy, SiScikitlearn, SiScrapy, SiHaskell, SiMongodb, SiJupyter, SiVercel, SiFigma, SiPrismic,
     SiFlask,
     SiPostgresql,
-    SiSqlalchemy
+    SiSqlalchemy,
+    SiTensorflow,
+    SiPytorch
 } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 
@@ -19,13 +21,15 @@ const skills: {
     name: string;
 }[] = [
         { icon: <FaPython style={{ height: "2.1rem", width: "auto" }} />, name: "Python" },
-        { icon: <SiC style={{ height: "2.1rem", width: "auto" }} />, name: "C" },
         { icon: <SiCplusplus style={{ height: "2.1rem", width: "auto" }} />, name: "C++" },
-        { icon: <FaJava style={{ height: "2.1rem", width: "auto" }} />, name: "Java" },
+        { icon: <SiC style={{ height: "2.1rem", width: "auto" }} />, name: "C" },
         { icon: <VscAzure style={{ height: "2.1rem", width: "auto" }} />, name: "Azure" },
+        { icon: <SiTensorflow style={{ height: "2.1rem", width: "auto" }} />, name: "Tensorflow" },
+        { icon: <SiPytorch style={{ height: "2.1rem", width: "auto" }} />, name: "Pytorch" },
+        { icon: <FaJava style={{ height: "2.1rem", width: "auto" }} />, name: "Java" },
+        { icon: <SiTypescript style={{ height: "2.1rem", width: "auto" }} />, name: "TypeScript" },
         { icon: <FaJs style={{ height: "2.1rem", width: "auto" }} />, name: "JavaScript" },
         { icon: <FaDocker style={{ height: "2.1rem", width: "auto" }} />, name: "Docker" },
-        { icon: <SiTypescript style={{ height: "2.1rem", width: "auto" }} />, name: "TypeScript" },
         { icon: <FaHtml5 style={{ height: "2.1rem", width: "auto" }} />, name: "HTML" },
         { icon: <FaCss3Alt style={{ height: "2.1rem", width: "auto" }} />, name: "CSS" },
         { icon: <SiGnubash style={{ height: "2.1rem", width: "auto" }} />, name: "Bash" },
@@ -35,10 +39,10 @@ const skills: {
         { icon: <SiPostgresql style={{ height: "2.1rem", width: "auto" }} />, name: "Postgres" },
         { icon: <SiSqlalchemy style={{ height: "2.1rem", width: "auto" }} />, name: "SQLAlchemy" },
         { icon: <SiPandas style={{ height: "2.1rem", width: "auto" }} />, name: "Pandas" },
-        { icon: <FaReact style={{ height: "2.1rem", width: "auto" }} />, name: "React" },
-        { icon: <SiNextdotjs style={{ height: "2.1rem", width: "auto" }} />, name: "Next.js" },
         { icon: <SiNumpy style={{ height: "2.1rem", width: "auto" }} />, name: "NumPy" },
         { icon: <SiScikitlearn style={{ height: "2.1rem", width: "auto" }} />, name: "Scikit-Learn" },
+        { icon: <FaReact style={{ height: "2.1rem", width: "auto" }} />, name: "React" },
+        { icon: <SiNextdotjs style={{ height: "2.1rem", width: "auto" }} />, name: "Next.js" },
         { icon: <FaNodeJs style={{ height: "2.1rem", width: "auto" }} />, name: "Node.js" },
         { icon: <SiExpress style={{ height: "2.1rem", width: "auto" }} />, name: "Express.js" },
         { icon: <SiVite style={{ height: "2.1rem", width: "auto" }} />, name: "Vite" },
